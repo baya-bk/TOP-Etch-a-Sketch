@@ -1,14 +1,21 @@
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
 }
 .container {
-  width: 45vw;
-  height: 45vw;
+  width: 60vw;
+  height: 60vw;
   margin: auto;
   border: 5px solid var(--main-color);
   border-radius: 10px;
 }
+/* .cellDiv:hover {
+  background-color: rgb(157, 220, 223);
+} */
+/* .square:hover {
+  counter-reset: #0000;
+} */
